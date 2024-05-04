@@ -1,0 +1,3 @@
+[submodule "reference/esp-qcloud"]
+	path = reference/esp-qcloud
+	url = https://github.com/liublog123/coolweather.git
