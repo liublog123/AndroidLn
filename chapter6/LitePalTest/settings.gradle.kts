@@ -7,10 +7,16 @@ pluginManagement {
                 includeGroupByRegex("androidx.*")
             }
         }
+        maven {
+            url=uri ("https://maven.aliyun.com/repository/public/")
+        }
+        mavenLocal()
+        mavenCentral()
         mavenCentral()
         gradlePluginPortal()
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
